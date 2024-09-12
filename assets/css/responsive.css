@@ -1,0 +1,966 @@
+/* Normal desktop :1700px. */
+@media (min-width: 1700px) and (max-width: 1920px) {
+.sub-title h3 {
+    font-size: 40px;
+}
+.header-button a {
+    padding: 10px 30px;
+}
+.heder-menu {
+    left: 14%;
+}
+.sticky-nav {
+    padding: 0 200px 7px;
+}
+.sticky-nav.heder-menu {
+    left: 22%;
+}
+
+
+
+}
+/* Normal desktop :1500px. */
+@media (min-width: 1500px) and (max-width: 1699px) {
+.sticky-nav .search-box-btn.search-box-outer i {
+    left: 15px;
+}
+.slider-title h3 {
+    font-size: 60px;
+}
+.sub-title h3 {
+    font-size: 40px;
+}
+
+
+
+}
+/* Normal desktop :1300. */
+@media (min-width: 1300px) and (max-width: 1499px) {
+.sticky-nav .search-box-btn.search-box-outer i {
+    left: -10px;
+}
+.sub-title h3 {
+    font-size: 40px;
+}
+.slider-thumb {
+    left: -225px;
+    position: relative;
+}
+.shapes-imge {
+    right: -80px;
+}
+
+
+
+
+}
+/* Normal desktop :1200. */
+@media (min-width: 1200px) and (max-width: 1299px) {
+.sticky-nav .search-box-btn.search-box-outer i {
+    left: -10px;
+}
+.sub-title h3 {
+    font-size: 40px;
+}
+.slider-thumb {
+    left: -60px;
+    position: relative;
+}
+.slider-thumb img {
+    width: 117%;
+}
+.shapes-imge {
+    right: -30px;
+}
+.about-thumb {
+    right: 0;
+}
+.about-area.style-one .about-thumb {
+    right: 40px;
+}
+.single-slider-box {
+    position: relative;
+    left: 0;
+}
+.testi-left-box {
+    left: -25px;
+}
+.testi-left-box.upper {
+    left: 15px;
+}
+
+
+
+
+
+
+
+
+}
+/* Normal desktop :1170px. */
+@media (min-width: 1170px) and (max-width: 1199px) {
+
+.zomia_menu > ul > li > a {
+    margin: 30px 12px;
+}
+.slide-title h1 {
+    font-size: 58px;
+    line-height: 65px;
+}
+.sub-title h3 {
+    font-size: 33px;
+}
+.icon-title p {
+    width: 95%;
+}
+.service-title-shape-thumb {
+    right: 130px;
+}
+.testi-title p {
+    font-size: 14px;
+}
+.sub-title p {
+    font-size: 14px;
+}
+.blog-title a {
+    font-size: 12px;
+}
+.blog-title span {
+    font-size: 12px;
+}
+.blog-title span::before {
+    top: 4px;
+}
+.blog-title h2 a {
+    font-size: 18px;
+}
+.blog-title p {
+    font-size: 15px;
+    line-height: 23px;
+}
+.footer-title h5 {
+    font-size: 20px;
+}
+.social-tex p {
+    font-size: 14px;
+}
+.contacts-tex p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.slider-thumb img {
+    width: 140%;
+}
+.slider-thumb {
+    left: -70px;
+    position: relative;
+}
+.shapes-imge {
+    position: absolute;
+    top: 10px;
+    right: -105px;
+}
+.about-thumb {
+    right: 50px;
+}
+.faq-area {
+    padding: 85px 0px 30px 0px;
+}
+.footer-icon ul li {
+    margin-right: 4px;
+}
+.footers-icon ul li {
+    margin-top: 18px;
+}
+.footer-area .form-button button {
+    padding: 0 28px;
+}
+
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+
+.zomia_menu > ul > li > a {
+    margin: 30px 10px;
+}
+.single-slider-box {
+    left: 0;
+}
+.slider-thumb {
+    left: -60px;
+}
+.slider-thumb img {
+    width: 115%;
+}
+.about-thumb img {
+    width: 100%;
+}
+.shapes-imge {
+    right: 0;
+	top:-40px;
+}
+.service-title-shape-thumb {
+    right: 130px;
+}
+.about-area {
+    padding: 100px 0px 100px 0px;
+}
+.resent-title a h3 {
+    font-size: 14px;
+    line-height: 20px;
+}
+.call-do-action-thumb {
+    margin-left: 50px;
+}
+.slide-title h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+.service-title p {
+    font-size: 15px;
+    line-height: 25px;
+}
+.sub-title h3 {
+    font-size: 30px;
+}
+.sub-title p {
+    font-size: 16px;
+}
+.blog-title span::before {
+    top: 4px;
+}
+.footer-icon ul li {
+    margin-right: 3px;
+}
+.icon-title p {
+    font-size: 14px;
+    line-height: 25px;
+    width: 85%;
+}
+.about-area {
+    padding: 95px 0px 90px 0px;
+}
+.feature-area {
+    padding: 95px 0px 70px 0px;
+}
+.call-do-action-thumb img {
+    width: 100%;
+}
+.testi-title p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.testi-left-box {
+    left: -15px;
+}
+.testi-left-box.upper {
+    left: 10px;
+}
+.blog-title a {
+    font-size: 12px;
+}
+.blog-title span {
+    font-size: 12px;
+}
+.blog-title h2 a {
+    font-size: 18px;
+    padding-top: 15px;
+}
+.blog-title p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.contacts-icon ul li i {
+    font-size: 45px;
+}
+.counter-area {
+    padding: 95px 0px 70px 0px;
+}
+.faq-area {
+    padding: 85px 0px 30px 0px;
+}
+.footer-area .form-button button {
+    padding: 0 25px;
+}
+.footer-title h5 {
+    font-size: 18px;
+}
+.social-tex p {
+    font-size: 13px;
+}
+.footer-text p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.contacts-tex p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.footers-icon ul li {
+    margin-top: 13px;
+}
+.scroll-area .go-top.active {
+    right: 30px;
+}
+
+
+
+
+
+
+
+}
+/* small mobile :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.slide-title h1 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.service-numbers.upper::before {
+    right: 0px;
+}
+.call-do-action-thumb {
+    margin-left: 7px!important;
+}
+.slider-area {
+    height: 700px;
+}
+.single-slider-box {
+    left: 0;
+}
+.slider-thumb img {
+    width: 120%;
+}
+.slider-thumb {
+    left: -40px;
+}
+.shapes-imge {
+    position: absolute;
+    top: -60px;
+    right: -35px;
+}
+.shap-img {
+    left: 0;
+}
+.slide-title p {
+    font-size: 16px;
+}
+.service-title-shape-thumb {
+    right: 0;
+}
+.about-area.style-one .shaps-img.rotateme {
+    right: 40px;
+}
+.about-area.style-one .shap-img {
+    top: -63px;
+    left: 38px;
+}
+.about-area.style-one .shapes-imge {
+    right: -33px;
+}
+.service-numbers.upper::before {
+    background: inherit;
+}
+.about-thumb img {
+    width: 100%;
+}
+.sub-title h3 {
+    font-size: 28px;
+}
+.testimonial-area .sub-title h3 {
+    font-size: 25px;
+}
+.sub-title h5 {
+    font-size: 18px;
+}
+.sub-title p {
+    font-size: 16px;
+    width: 70%;
+}
+.icon-title p {
+    font-size: 14px;
+    width: 86%;
+    line-height: 17px;
+}
+.icon-title h2 {
+    font-size: 16px;
+}
+.about-area.style-one {
+    padding: 80px 0px 50px 0px;
+}
+.call-do-action-thumb img {
+    width: 100%;
+}
+.call-do-action-thumb {
+    margin-left: 70px;
+}
+.call-shap img {
+    width: 100%;
+ left: -30px;
+}
+.testi-title h2 {
+    font-size: 14px;
+}
+.testi-title p {
+    font-size: 10px;
+    line-height: 15px;
+}
+.testi-left-box{
+    padding: 30px 10px 15px 10px;
+    left: -15px;
+}
+.testi-left-box.upper {
+    left: 10px;
+}
+.testi-shap {
+    top: 25px;
+    right: 15px;
+}
+.testimonial-area {
+    padding: 80px 0px 50px 0px;
+}
+.blog-title span {
+    margin-right: 33px;
+    font-size: 12px;
+}
+.blog-title a {
+    font-size: 12px;
+}
+.blog-area {
+    padding: 85px 0px 60px 0px;
+}
+.blog-title span::before {
+    right: -22px;
+    top: 4px;
+}
+.single-counter-box {
+    margin-bottom: 30px;
+}
+.counter-title h1 {
+    font-size: 40px;
+}
+.counter-title h4 {
+    font-size: 15px;
+}
+.row.section {
+    padding: 59px 0 59px 0!important;
+}
+.single-contacts-boxs {
+    margin: 0;
+}
+.contacts-icon ul li i {
+    font-size: 42px;
+}
+.subscrib h2 {
+    font-size: 19px;
+    line-height: 30px;
+}
+.faq-area {
+    padding: 76px 0px 40px 0px;
+}
+.testimonial-single-thumb {
+    top: 50px;
+    position: relative;
+}
+.faq-area .accordion {
+    margin: 10px 0 auto 0px;
+}
+.footer-area .form-button button {
+    padding: 0 10px;
+    right: 10px;
+}
+.row.fbg {
+    padding: 30px 47px 7px 40px;
+}
+.footer-area .form-button button {
+    font-size: 15px;
+}
+.footer-area .form-button button i {
+    margin-left: 0;
+    font-size: 15px;
+}
+.footer-box {
+    margin-bottom: 30px;
+}
+.blog-title p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.paginationss-title ul li {
+    margin-right: 0;
+}
+.paginationss-title ul li a i{
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+}
+.contacts-titles {
+    margin-top: 30px;
+}
+.scroll-area .go-top.active {
+    right: 30px;
+}
+.row.pad {
+    padding: 80px 0px 30px 0px;
+}
+
+}
+/* small mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+.slide-title h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+.single-slider-box {
+    left: 0;
+}
+.slider-thumb {
+    margin-top: 140px;
+    left: 0;
+}
+.slider-button a {
+    font-size: 15px;
+    padding: 10px 30px;
+}
+.shapes-imge {
+    right: -15px;
+    top: -30px;
+}
+.sub-title p {
+    font-size: 15px;
+    width: 65%;
+}
+.slider-thumb img {
+    width: 100%;
+}
+.sub-title h3 {
+    font-size: 30px;
+}
+.service-title-shape-thumb {
+    top: -80px;
+    right: 0;
+}
+.service-title-shape-thumb img {
+    width: 100%;
+}
+.feature-title p {
+    width: 80%;
+    margin: auto;
+}
+.single-feature-box {
+    padding: 116px 30px 38px;
+}
+.about-area {
+    padding: 94px 0px 0px 0px;
+}
+.sub-title h5 {
+    font-size: 15px;
+}
+.about-thumb img {
+    width: 100%;
+    margin-top: 20px;
+}
+.testi-left-box {
+    left: -15px;
+}
+.testi-left-box.upper {
+    left: 15px;
+}
+.feature-area {
+    padding: 80px 0px 50px 0px;
+}
+.call-do-action {
+    padding: 70px 0 25px 0;
+}
+.call-do-button a {
+    font-size: 15px;
+    padding: 10px 30px;
+}
+.call-do-action-thumb {
+    margin-left: 55px;
+}
+.brand-area {
+    padding: 52px 0px 70px 0px;
+}
+.testimonial-area {
+    padding: 80px 0px 75px 0px;
+}
+.single-counter-box {
+    margin-bottom: 40px;
+}
+.footer-box {
+    margin-bottom: 40px;
+}
+.service-number.upper::before {
+    display: none!important;
+}
+.service-numbers.upper::before {
+    display: none!important;
+}
+.about-area {
+    padding: 65px 0px 50px 0px;
+}
+.about-area.style-one {
+    padding: 90px 0px 63px 0px;
+}
+.single-about-box {
+    padding: 0 0 40px 0;
+}
+.about-thumb {
+    right: -30px;
+}
+.about-area.style-one .about-thumb {
+    right: 0;
+}
+.blog-area.style-six {
+    padding: 95px 0px 60px 0px;
+}
+.counter-area {
+    padding: 80px 0px 50px 0px;
+}
+.form-button {
+    margin-bottom: 14px;
+    text-align: center;
+}
+.form-button.blog-details {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.single-contacts-boxs {
+    margin: 0;
+}
+.contacts-icon ul li i {
+    font-size: 42px;
+}
+.contacts-titles {
+    margin-top: 35px;
+}
+.single-contacts-boxs {
+    padding: 65px 0 38px 39px;
+}
+.contacts-section {
+    padding: 0px 0px 25px 0px;
+}
+.scroll-area .go-top.active {
+    right: 30px;
+}
+.faq-area {
+    padding: 76px 0px 40px 0px;
+}
+.testimonial-single-thumb {
+    top: 50px;
+    position: relative;
+}
+.faq-area .accordion {
+    margin: 10px 0 auto 0px;
+}
+.footer-area {
+    padding: 110px 0px 25px 0px;
+}
+.row.pad {
+    padding: 80px 0px 20px 0px;
+}
+.scroll-area .go-top.active {
+    right: 30px;
+}
+.row.fbg {
+    padding: 50px 37px 7px 40px;
+}
+
+
+
+
+
+
+}
+
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+	
+.breadcumb-area {
+    padding: 140px 0 120px;
+}
+.slider-area {
+    height: 600px;
+}
+.single-slider-box {
+    left: 0;
+}
+.slider-text h2 {
+    font-size: 13px;
+}
+.slider-thumb img {
+    width: 100%;
+}
+.slide-title h1 {
+    font-size: 30px;
+    line-height: 35px;
+}
+.slide-title p {
+    font-size: 13px;
+}
+.slider-button a {
+    font-size: 14px;
+    padding: 10px 30px;
+}
+.slider-box {
+    display: none;
+}
+.service-area {
+    padding: 0px 0px 35px 0px;
+}
+.sub-title h3 {
+    font-size: 30px;
+}
+.sub-title p {
+    font-size: 14px;
+    width: 100%;
+}
+.service-number.upper::before {
+    display: none!important;
+}
+.service-numbers.upper::before {
+    display: none!important;
+}
+.about-thumb img {
+    width: 100%;
+}
+.service-title-shape-thumb {
+    top: 0;
+    right: 0;
+}
+.service-title-shape-thumb img {
+    width: 100%;
+}
+.call-do-action-thumb img {
+    width: 100%;
+}
+.testi-left-box {
+    left: 0;
+}
+.breadcumb-title h1 {
+    font-size: 30px;
+}
+.abouts-shap {
+    width: 85%;
+}
+.about-area {
+    padding: 70px 0px 40px 0px;
+}
+.single-about-box {
+    padding: 0 0 60px 0;
+}
+.about-thumb {
+    right: -10px;
+}
+.about-area.style-one .about-thumb {
+    right: -8px;
+}
+.icon-title h2 {
+    font-size: 15px;
+}
+.icon-title p {
+    font-size: 12px;
+    line-height: 16px;
+}
+.about-area.style-one {
+    padding: 80px 0px 15px 0px;
+}
+.sub-title h3 {
+    font-size: 20px;
+}
+.about-thumb img {
+    width: 90%;
+}
+.feature-area {
+    padding: 80px 0px 50px 0px;
+}
+.call-do-action {
+    padding: 50px 0 5px;
+}
+.call-shap {
+    left: 0;
+    display: none;
+}
+.call-do-button a {
+    font-size: 12px;
+    padding: 8px 20px;
+}
+.contacts-icon ul li i {
+    font-size: 40px;
+}
+.testi-left-box {
+    padding: 10px 10px 10px 10px;
+}
+.testi-title h2 {
+    font-size: 11px;
+}
+.testi-shap {
+    display: none;
+}
+.testi-title p {
+    font-size: 10px;
+    line-height: 12px;
+}
+.blog-area {
+    padding: 80px 0px 50px 0px;
+}
+.blog-title span {
+    margin-right: 20px;
+    font-size: 12px;
+}
+.blog-title span::before {
+    right: -16px;
+    top: 3px;
+    width: 7px;
+    height: 7px;
+}
+.blog-area.upper {
+    padding: 70px 0 40px 0;
+}
+.about-area.style-one .icon-box i {
+    height: 23px;
+    width: 23px;
+    line-height: 23px;
+    font-size: 10px;
+}
+.icon-box i {
+    font-size: 42px;
+}
+.blog-title a {
+    font-size: 12px;
+}
+.blog-title h2 a {
+    font-size: 18px;
+}
+.blog-title p {
+    font-size: 14px;
+    line-height: 23px;
+}
+.counter-title h1 {
+    font-size: 35px;
+}
+.single-counter-box {
+    margin-bottom: 30px;
+}
+.counter-title h4 {
+    font-size: 15px;
+}
+.subscrib h2 {
+    font-size: 18px;
+    line-height: 24px;
+}
+.row.fbg {
+    padding: 30px 20px 7px 20px;
+}
+.testimonial-area {
+    padding: 80px 0px 80px 0px; 
+}
+.testi-left-box.upper {
+    left: 15px;
+}
+.footer-area .form-button button {
+    font-size: 11px;
+    height: 40px;
+    padding: 0 10px;
+}
+.footer-area .form_box input {
+    font-size: 11px;
+    height: 41px;
+}
+.footer-box {
+    margin-bottom: 30px;
+}
+.blog-area.style-five {
+    padding: 70px 0;
+}
+.blog-area.style-six {
+    padding: 70px 0 40px 0;
+}
+.blog-title p {
+    font-size: 14px;
+    line-height: 16px;
+}
+.resent-title a h3 {
+    font-size: 14px;
+}
+.paginationss-title ul li {
+    margin-right: 0;
+}
+.paginationss-title ul li a i {
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+}
+.counter-area {
+    padding: 80px 0px 50px 0px;
+}
+.form-button.blog-details {
+    text-align: center;
+    margin: 30px 0 50px 0;
+}
+.row.section {
+    padding: 59px 0px 59px 0px!important;
+}
+.single-contacts-boxs {
+    padding: 45px 0 30px 10px;
+    margin: 0;
+}
+.contacts-section {
+    padding: 0px 0px 23px 0px;
+}
+.contacts-titles h2 {
+    margin-top: 30px;
+}
+.contacts-tex p {
+    font-size: 15px;
+    line-height: 20px;
+}
+.contacts-section button {
+    width: 80%;
+}
+.scroll-area .go-top.active {
+    right: 20px;
+}
+.top-wrap .go-top-button {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.brand-area {
+    padding: 52px 0px 70px 0px;
+}
+.footer-area {
+    padding: 85px 0px 25px 0px;
+}
+.row.pad {
+    padding: 80px 0px 25px 0px;
+}
+.faq-area {
+    padding: 76px 0px 40px 0px;
+}
+.testimonial-single-thumb {
+    top: 50px;
+    position: relative;
+}
+.faq-area .accordion a {
+    text-indent: 26px;
+}
+.faq-area .accordion li a.active {
+    font-size: 16px;
+}
+.faq-area .accordion {
+    margin: 0 0 auto 0px;
+}
+
+
+
+
+
+
+
+}
+
+
