@@ -496,7 +496,6 @@ a.added-new-demo:after {
     text-align: center;
 }
 .service-title h2 {
-    margin: 25px 0 9px 0;
     font-size: 24px;
     color: #1d2124;
     line-height: 1.2;
@@ -520,7 +519,7 @@ a.added-new-demo:after {
     content: "";
     top: 37px;
     right: -160px;
-    background: url(assets/images/Saas-Landing-3.png);
+    /* background: url(assets/images/Saas-Landing-3.png); */
     height: 40px;
     width: 240px;
     background-position: center;
@@ -535,7 +534,7 @@ a.added-new-demo:after {
     content: "";
     top: 6px;
     right: -155px;
-    background: url(assets/images/Saas-Landing-4.png);
+    /* background: url(assets/images/Saas-Landing-4.png); */
     height: 40px;
     width: 240px;
     background-position: center;
@@ -2352,3 +2351,269 @@ div#particles {
 div#particles .slider-area {
     background: inherit;
 }
+.space{
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Text content */
+.d-flex div:first-child {
+    flex: 1 0 auto;
+}
+
+/* Button */
+.header-donate-btn button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-lg-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-donate-btn button {
+        width: 100%;
+    }
+}
+.smart{
+    background-color:#007bff;
+    color: white;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.smart a{
+    color: white !important;
+}
+.widt{
+    width: 150px;
+}
+.wallet-connect{
+    background: #fff;
+    color: #444;
+    display: block;
+}
+/* Container for the deposit interface */
+.deposit-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card for deposit information */
+.deposit-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    .deposit-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Additional adjustments for smaller screens */
+}
+.deposit-info{
+    margin-left: 25px;
+}
+/* Input field */
+input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 0px;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0069d9;   
+
+}
+
+.active-deposits-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;   
+
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    /* text-align:    */
+ left;
+}
+
+p {
+    /* text-align: center; */
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    /* Adjust for smaller screens as needed */
+}
+
+.dashboard {
+    /* display: flex; */
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .income-card, .referral-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    /* flex: 1 1 300px; */
+    text-align: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .withdraw-btn {
+    margin-top: 10px;
+    background: #3b82f6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .referral-card {
+    background: linear-gradient(135deg, #ffffff, #ffffff);
+  }
+  .referral-card:hover {
+    box-shadow: inset;
+  }
+  
+  .referral-link {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .referral-link input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .copy-btn {
+    background: #2d2d3d;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 6px;
+  }
+  
+  .referral-info {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .total-reward, .total-referral {
+    text-align: center;
+  }
+  
+  .statistics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin: 25px 0px;
+  }
+  
+  .stat-item {
+    background: #dadada;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .levels {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin: 25px 0px;
+  }
+  
+  .level-box {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .lvl-1 { background: #f2f2f2; }
+  .lvl-2 { background: #f2f2f2; }
+  .lvl-3 { background: #f2f2f2; }
+  .lvl-4 { background: #f2f2f2; }
+  .lvl-5 { background: #f2f2f2; }
+  
+  @media (max-width: 768px) {
+    .income-card, .referral-card {
+      flex: 1 1 100%;
+    }
+  
+    .statistics, .levels {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+  }
+
+  .containers{
+    max-width: 70%;
+    margin: 75px auto;
+  }
+  @media (max-width:600px){
+    .containers{
+        max-width: 100%;
+    }
+
+  }
+
