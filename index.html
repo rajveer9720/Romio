@@ -48,6 +48,25 @@
 	
 </head>
 <body>
+	<div id="walletModal" class="modal">
+		<div class="modal-content">
+			<span id="close-popup" class="close">&times;</span>
+			<div id="metamaskOption" class="wallet-option">
+				<img src="/assets/img/metamask.svg" alt="MetaMask">
+				<div>
+					<p>MetaMask</p>
+					<span>Connect to your MetaMask Wallet</span>
+				</div>
+			</div>
+			<div id="walletConnectOption" class="wallet-option">
+				<img src="/assets/img/wallet connect.svg" alt="WalletConnect">
+				<div>
+					<p>WalletConnect</p>
+					<span>Scan with WalletConnect to connect</span>
+				</div>
+			</div>
+		</div>
+	</div>
 		<!--Zomia mobile-menu-top-logo-Start-->
 		<!--=============================-->
 		<div class="mobile-logo-area d-sm-block d-md-block d-lg-none">
@@ -115,7 +134,7 @@
 								<a href="slider-button">Smart Contract</a>
 							</div>
 							<div class="header-donate-btn">
-								<button class="smart widt">Connect Wallet</button>
+								<button id="connectWalletBtn" class="smart widt">Connect Wallet</button>
 							</div>
 						</div>
 					</div>
@@ -130,10 +149,7 @@
 					<ul>
 						<li><a href="#">Smart Contract</a>
 							
-					
-						
-						
-						<button  class="wallet-connect">Connect Wallet</button>
+						<button id="connectWalletBtn2" class="wallet-connect">Connect Wallet</button>
 					</li>
 					</ul>
 				</nav>
@@ -191,6 +207,18 @@
 <!-- ============================================================== -->
 <!-- Start service-area -->
 <!-- ============================================================= -->
+
+<div class="container-card	">
+	<div class="card">
+	  <h3>Contract Balance</h3>
+	  <p id="contract-balance">0.000</p>
+	</div>
+	<div class="card">
+	  <h3>Total Withdrawn Balance</h3>
+	  <p id="withdrawandata">0.000</p>
+	</div>
+  </div>
+  
 <div class="service-area">
 	<div class="container">
 		<div class="row">
@@ -198,7 +226,7 @@
 				<div class="section-title">
 					<div class="sub-title">
 						<h5>Contract Balance <span></span></h5>
-						<h3>0.000 </h3>
+						<h3 id="contract-balance2">0.000 </h3>
 						<p>BNB</p>
 						
 					</div>
@@ -220,7 +248,7 @@
 						</div>
 						<div class="service-title">
 							<h5>Deposited</h5>
-							<h2>0.000</h2>
+							<h id="total-deposits">0.000</h>
 							<p>BNB</p>
 						</div>
 					</div>
@@ -237,7 +265,7 @@
 						</div>
 						<div class="service-title">
 							<h5>Users</h5>
-							<h2>0</h2>
+							<h2 id="total-users">0</h2>
 							<p>-</p>
 						</div>
 					</div>
@@ -254,7 +282,7 @@
 						</div>
 						<div class="service-title">
 							<h5>Withdrawn</h5>
-							<h2>0.000</h2>
+							<h2 id="withdrawandata2">0.000</h2>
 							<p>BNB</p>
 						</div>
 					</div>
@@ -272,7 +300,7 @@
 						</div>
 						<div class="service-title">
 							<h5>Ref Rewards</h5>
-							<h2>0.000</h2>
+							<h2 id="ref-rewards">0.000</h2>
 							<p>BNB</p>
 						</div>
 					</div>
@@ -287,55 +315,51 @@
 <div class="about-area">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-md-6">
+			<div class="col-lg-6 col-md-6 ">
 				<div class="single-about-box">
 					<div class="about-thumb">
-						<img src="assets/images/Saas-Landing-6.png" alt="about img">
-						<div class="about-shap bounce-animate">
+						<img src="assets/images/iom1.png" alt="about img">
+						<!-- <div class="about-shap bounce-animate">
 							<img src="assets/images/Saas-Landing-5.png" alt="about img">
-						</div>
-						<div class="abouts-shap rotateme">
+						</div> -->
+						<!-- <div class="abouts-shap rotateme">
 							<img src="assets/images/Saas-Landing-7.png" alt="about img">
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-6">
+			<div class="col-lg-6 col-md-6 text-white white">
 				<div class="deposit-container">
-					<h1>Deposit</h1>
+					<h1 class="text-white">Deposit</h1>
 
 					<div class="make-new-deposit"></div>
-						<h2>Make New Deposit</h2>
-						<input type="number" placeholder="0 BNB" min="0.05" max="1000">
-						<button>Make Deposit</button>
+						<h2 class="text-white" >Make New Deposit</h2>
+						<input type="number" id="depositAmount" placeholder="0 BNB" min="0.05" max="1000">
+						<button id="sendTransaction" >Make Deposit</button>
 					</div>
 			
 					<div class="deposit-info">
 						<div class="per-day">
-							<h2>Per Day</h2>
-							<p>0.000 BNB</p>
+							<h2 class="text-white">Per Day</h2>
+							<p id="perDayIncome">0.000 BNB</p>
 						</div>
 						<div class="total-income">
-							<h2>Total Income</h2>
-							<p>0.000 BNB</p>
+							<h2 class="text-white">Total Income</h2>
+							<p id="totalIncome">0.000 BNB</p>
 						</div>
 						<div class="percent-rate">
-							<h2>Percent Rate</h2>
-							<p>3% per day</p>
+							<h2 class="text-white">Percent Rate</h2>
+							<p id="">3% per day</p>
 							<p>*Withdrawal at any time you want!</p>
 						</div>
 					</div>
 			
-					
-			
-			
-					
 				</div>
 		</div>
 	</div>
 </div>
 
-<div class="active-deposits-container">
+<!-- <div class="active-deposits-container">
 	<h2>Active Deposits</h2>
 	<table>
 		<thead>
@@ -350,7 +374,7 @@
 			</tbody>
 	</table>
 	<p>Finished</p>
-</div>
+</div> -->
 <!--==================================================-->
 <!-- Start about Area style-one-->
 <!--==================================================-->
@@ -360,16 +384,16 @@
 	  <div class="col-lg-12 col-md-12 section-left">
 		<div class="income-card containers">
 		  <h3>Your Income</h3>
-		  <p class="balance">0.000 BNB</p>
+		  <p id="depositUser" class="balance">0.000 BNB</p>
 		  <p>Withdrawable balance</p>
-		  <button class="withdraw-btn">Withdraw</button>
+		  <button id="withdraw-button" class="withdraw-btn">Withdraw</button>
 		</div>
 		
 		<div class="statistics">
-		  <div class="stat-item">Total Deposits <p>0.000 BNB</p></div>
-		  <div class="stat-item">Withdrawn <p>0.000 BNB</p></div>
-		  <div class="stat-item">Total Profit <p>0.000 BNB</p></div>
-		  <div class="stat-item">Percent Rate <p>0.00% PER DAY</p></div>
+		  <div class="stat-item">Total Deposits <p id="userDeposits">0.000 BNB</p></div>
+		  <div class="stat-item">Withdrawn <p id="profit">0.000 BNB</p></div>
+		  <div class="stat-item">Total Profit <p id="amountWithdrawn">0.000 BNB</p></div>
+		  <div class="stat-item">Percent Rate <p id="interestRate">0.00% PER DAY</p></div>
 		</div>
 	  </div>
 	</div>
@@ -379,17 +403,17 @@
 		<div class="referral-card containers">
 		  <h3>Your Link</h3>
 		  <div class="referral-link">
-			<input type="text" placeholder="You will get your ref link after invest...">
-			<button class="copy-btn"><i class="fas fa-copy"></i></button>
+			<input id="referralLink" type="text" placeholder="You will get your ref link after invest...">
+			<button id="copyButton" class="copy-btn"><i class="fas fa-copy"></i></button>
 		  </div>
 		  <div class="referral-info">
 			<div class="total-reward">
 			  <h4>Total Reward</h4>
-			  <p>0.000 BNB</p>
+			  <p id="depositvalue">0.000 BNB</p>
 			</div>
 			<div class="total-referral">
 			  <h4>Total Referral</h4>
-			  <p>0</p>
+			  <p id="countdownline"	>0</p>
 			</div>
 		  </div>
 		</div>

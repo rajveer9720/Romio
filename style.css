@@ -547,6 +547,10 @@ a.added-new-demo:after {
 .about-area {
     padding: 94px 0px 60px 0px;
     background: #FAFAFA;
+    background-image: url('/assets/images/imo2.png');
+}
+.section-left{
+    background-image: url('/assets/images/imo3.png');
 }
 .about-thumb-inner {
     z-index: 999 !important;
@@ -601,6 +605,12 @@ a.added-new-demo:after {
     line-height: 28px;
     font-weight: 400;
     width: 80%;
+}
+.white .h1{
+    color: white !important;
+}
+.white .h2{
+    color: white !important;
 }
 /*<!-- ============================================================== -->
 <!-- Start  about-area.style-one  Css -->
@@ -2617,3 +2627,45 @@ p {
 
   }
 
+
+  /* Main container for the cards */
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Spacing between cards */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    padding: 20px;
+  }
+  
+  /* Individual card styles */
+  .card {
+    flex: 1 1 calc(50% - 20px); /* 50% width, minus gap for spacing */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Card header */
+  .card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Card balance value */
+  .card p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 100%; /* Full width for mobile */
+    }
+  }
+  
